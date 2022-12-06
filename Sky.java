@@ -18,9 +18,16 @@ public class Sky {
         g.fillOval(600, 140, 60, 60);
     }
     public static void drawSunset(Graphics g){
-        g.setColor(new Color());
+        g.setColor(new Color(150, 100, 255));
+        g.fillOval(600, 430, 430, 360);
+        g.setColor(new Color(255, 100, 160));
+        g.fillOval(670, 480, 290, 260);
+        g.setColor(new Color(255, 150, 0));
+        g.fillOval(725, 525, 180, 170);
+
     }
     public static void drawSun(Graphics g){
-
+        g.setColor(Color.yellow);
+        g.fillOval(765, 560, 100, 100);
     }
 }

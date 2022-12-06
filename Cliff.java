@@ -8,10 +8,10 @@ public class Cliff extends Applet {
         Sky.drawClouds(g);
         Sky.drawSunset(g);
         Sky.drawSun(g);
-        /*Water.drawBack(g);
+        Water.drawBack(g);
         Water.drawWaves(g);
         Water.drawDetails(g);
-        Rocks.drawBase(g);
-        Rocks.drawDetails(g); */
+        /*Rocks.drawBase(g);
+        Rocks.drawDetails(g);*/
     }
 }
