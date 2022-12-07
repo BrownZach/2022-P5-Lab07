@@ -11,7 +11,7 @@ public class Cliff extends Applet {
         Water.drawBack(g);
         Water.drawWaves(g);
         Water.drawDetails(g);
-        /*Rocks.drawBase(g);
-        Rocks.drawDetails(g);*/
+        Rocks.drawBase(g);
+        Rocks.drawDetails(g);
     }
 }
